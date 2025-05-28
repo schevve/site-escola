@@ -19,18 +19,19 @@ a{
     color: black;
     text-decoration: none;
 }
-.navbar-link{
+.menu-link{
     font-size: 1.5em;
     padding-left: 1em;
 }
-#navbar-logo{
+.menu-link.selected{
+    opacity: 50%;
+}
+#menu-logo{
     width: 10em;
     height: auto;
 }
 
 .page-title-container{
-    display: flex;
-    justify-content: space-between;
     padding-right: 3em;
     padding-left: 3em;
     padding-top: 1em;
