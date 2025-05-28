@@ -44,9 +44,28 @@ a{
     padding-top: 1em;
     padding-bottom: 1em;
     margin: 0;
+    box-sizing: border-box;
+    border-bottom:1em;
+    border-bottom-width: 1em;
+    
+    position: relative;
     /*background-color: var(--yellow);*/
 }
 .page-title{
+    position: absolute;
+    left: 3em;
+    top: 25%;
+    color: var(--white);
+    background-color: var(--brown);
     font-size: x-large;
     font-weight: 500;
+}
+.title-background-image{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+.divider.green{
+    margin: 0;
+    border-top: 0.1em solid var(--green);
 }
