@@ -1,9 +1,14 @@
 :root{
-    --yellow: #FDD800;
+    --yellow: #FFC300;
+    --orange: #FF9800;
+    --green: #157237;
+    --brown: #56431E;
+    --white: #F1F1F1;
 }
 
 body{
-    font-family: "Montserrat";
+    font-family: "Poppins";
+    background-color: var(--white);
     margin: 0;
 }
 
@@ -27,8 +32,10 @@ a{
     opacity: 50%;
 }
 #menu-logo{
-    width: 10em;
+    width: 7em;
     height: auto;
+    padding: 1em;
+    vertical-align: middle;
 }
 
 .page-title-container{
