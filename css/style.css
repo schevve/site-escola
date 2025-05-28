@@ -1,13 +1,18 @@
+:root{
+    --yellow: #FDD800;
+}
+
 body{
-    font-family: ;
+    font-family: "Montserrat";
+    margin: 0;
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    padding-left: 3em;
+    padding-right: 3em;
     margin: auto;
-    padding: 1em;
     align-items: center;
 }
 a{
@@ -21,4 +26,19 @@ a{
 #navbar-logo{
     width: 10em;
     height: auto;
+}
+
+.page-title-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    background-color: var(--yellow);
+}
+.page-title{
+    font-size: large;
+    font-weight: 500;
 }
