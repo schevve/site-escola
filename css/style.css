@@ -13,11 +13,10 @@ body{
 }
 
 .header-container{
-    position: relative;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    align-items: center;
-    justify-items: center;
+    /*align-items: center;
+    justify-items: center;*/
 }
 a{
     color: black;
@@ -30,12 +29,16 @@ a{
 .menu-link.selected{
     opacity: 50%;
 }
+.logo-container{
+    grid-area: 1/1/1/1;
+}
 #menu-logo{
     width: 5em;
     height: auto;
     padding: 0.5em;
     vertical-align: middle;
 }
+
 
 .page-heading-container{
     margin: 0;
@@ -67,16 +70,9 @@ a{
 .heading-img{
     width: 100%;
     object-fit: cover;
-    position: absolute;
-    height: 0em;
-    top: 0;
-    box-sizing: border-box;
-}
-.heading-img-container{
-    width: 100%;
     height: 10em;
-    position: absolute;
-    object-fit: cover;
+    box-sizing: border-box;
+    grid-area: 1 / 1/ 1/4;
 }
 
 
