@@ -12,7 +12,7 @@
     align-items: center;
     gap: 2em;
     margin-top: 1em;
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
 .footer-link{
     padding: 1em;

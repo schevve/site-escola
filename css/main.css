@@ -23,7 +23,7 @@
 }
 .section-heading.left{
     text-align: right;
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
 .section-content{
     display: flex;
@@ -42,20 +42,20 @@
     display: flex;
     border-style: solid;
     box-sizing: border-box;
+    border-color: var(--orange);
+    border-bottom-color: var(--brown);
 }
 .section-img-container.right{
     border-bottom-width: 1em;
     border-right-width: 0em;
     border-top-width: 0em;
     border-left-width: 1em;
-    border-color: var(--orange);
 }
 .section-img-container.left{
     border-bottom-width: 1em;
     border-right-width: 1em;
     border-top-width: 0em;
     border-left-width: 0em;
-    border-color: var(--yellow);
 }
 .section-img{
     display: block;
@@ -96,14 +96,16 @@
     border-left-width: 0em;
     border-color: var(--orange);
     border-style: solid;
+    border-bottom-color: var(--brown);
 }
 .section-content-text.left{
     border-bottom-width: 1em;
     border-right-width: 0em;
     border-top-width: 0em;
     border-left-width: 1em;
-    border-color: var(--yellow);
+    border-color: var(--orange);
     border-style: solid;
+    border-bottom-color: var(--brown);
 }
 .button-section{
     align-self: end;
@@ -118,5 +120,5 @@
     background-color: var(--yellow);
 }
 .button-section.left{
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
