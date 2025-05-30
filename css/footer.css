@@ -1,0 +1,23 @@
+:root{
+    --yellow: #FFC300;
+    --orange: #FF9800;
+    --green: #157237;
+    --brown: #56431E;
+    --white: #F1F1F1;
+}
+
+.footer-container{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+    background-color: var(--orange);
+}
+.footer-link{
+    box-sizing: border-box;
+}
+.footer-img{
+
+}
