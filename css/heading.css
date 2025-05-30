@@ -9,13 +9,14 @@
 .header-container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr auto;
     align-items: start;
     justify-items: center;
 }
 .navbar-container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     justify-content:space-between;
     grid-area: 1/2/1/2;
     padding: 1.2em;
@@ -25,7 +26,7 @@
     grid-area: 2/2/2/3;
     display: flex;
     gap: 1em;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -108,5 +109,5 @@
     object-fit: cover;
     height: 40em;
     box-sizing: border-box;
-    grid-area: 1 / 1/ 1/4;
+    grid-area: 2 / 1/ 2/4;
 }
