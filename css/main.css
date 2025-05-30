@@ -1,0 +1,120 @@
+:root{
+    --yellow: #FFC300;
+    --orange: #FF9800;
+    --green: #157237;
+    --brown: #56431E;
+    --white: #F1F1F1;
+}
+
+.section-container{
+    display: flex;
+    margin-top: 2em;
+}
+.section-heading{
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+.section-heading.right{
+    text-align: left;
+    background-color: var(--yellow);
+}
+.section-heading.left{
+    text-align: right;
+    background-color: var(--orange);
+}
+.section-content{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.section-content.first{
+    grid-area: 1/2/1/4;
+}
+.section-paragraph{
+    width: 100%;
+}
+.section-img-container{
+    display: flex;
+    border-style: solid;
+    box-sizing: border-box;
+}
+.section-img-container.right{
+    border-bottom-width: 1em;
+    border-right-width: 0em;
+    border-top-width: 0em;
+    border-left-width: 1em;
+    border-color: var(--orange);
+}
+.section-img-container.left{
+    border-bottom-width: 1em;
+    border-right-width: 1em;
+    border-top-width: 0em;
+    border-left-width: 0em;
+    border-color: var(--yellow);
+}
+.section-img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.content-grid-left{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+}
+.content-grid-right{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+}
+.background-orange{
+    background-color: var(--orange);
+}
+.background-yellow{
+    background-color: var(--yellow);
+}
+
+.section-content-text{
+    width: 100%;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-content-text.right{
+    border-bottom-width: 1em;
+    border-right-width: 1em;
+    border-top-width: 0em;
+    border-left-width: 0em;
+    border-color: var(--orange);
+    border-style: solid;
+}
+.section-content-text.left{
+    border-bottom-width: 1em;
+    border-right-width: 0em;
+    border-top-width: 0em;
+    border-left-width: 1em;
+    border-color: var(--yellow);
+    border-style: solid;
+}
+.button-section{
+    align-self: end;
+    padding: 1em;
+    border-bottom: 0.5em solid var(--brown);
+    margin-bottom: 0.5em;
+}
+.button-section:hover{
+    border-bottom: 0;
+}
+.button-section.right{
+    background-color: var(--yellow);
+}
+.button-section.left{
+    background-color: var(--orange);
+}

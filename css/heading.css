@@ -18,22 +18,32 @@
     grid-area: 1/2/1/2;
     border-radius: 0.5em 0.5em;
     padding: 1.2em;
-    background-color:rgba(255,255,255,0.6);
+    background-color: var(--white);
+}
+.menu-link:hover{
+    background-color: rgb(214, 214, 214) !important;
+    transition-duration: 200ms;
+}
+.navbar-container:hover .menu-link{
+    background-color: var(--white);
+    transition-duration: 200ms;
 }
 .menu-link{
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
     padding: 0.5em;
+    border-radius: 0.5em;
 }
 .menu-link.selected{
-    opacity: 50%;
+    background-color: rgb(214, 214, 214);
 }
 .logo-container{
-    justify-self: right;
+    justify-self: center;
     grid-area: 1/1/1/1;
-    margin-right: 1em;
+    margin-right: 0;
 }
 #menu-logo{
-    width: 5em;
+    width: 7em;
     height: auto;
     padding: 0.5em;
     vertical-align: middle;
