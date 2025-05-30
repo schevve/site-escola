@@ -13,12 +13,21 @@
     justify-items: center;
 }
 .navbar-container{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content:space-between;
     grid-area: 1/2/1/2;
     border-radius: 0.5em 0.5em;
     padding: 1.2em;
     background-color: var(--white);
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
 }
 .menu-link:hover{
     background-color: rgb(214, 214, 214) !important;
@@ -45,7 +54,6 @@
 #menu-logo{
     width: 7em;
     height: auto;
-    padding: 0.5em;
     vertical-align: middle;
     border-radius: 1em;
 }
@@ -54,7 +62,7 @@
     width: 100%;
     padding-top: 1em;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-area: 1/1/1/4;
     justify-content: center;
     align-items: center;
@@ -91,7 +99,7 @@
 .heading-img{
     width: 100%;
     object-fit: cover;
-    height: 30em;
+    height: 40em;
     box-sizing: border-box;
     grid-area: 1 / 1/ 1/4;
 }
