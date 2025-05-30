@@ -54,6 +54,7 @@
     border-left-width: 1em;
 }
 .section-img-container.left{
+    border-right-color: var(--brown);
     border-bottom-width: 1em;
     border-right-width: 1em;
     border-top-width: 1em;
@@ -100,6 +101,7 @@
     border-style: solid;
     border-bottom-color: var(--brown);
     border-top-color: var(--yellow);
+    border-right-color: var(--brown);
 }
 .section-content-text.left{
     border-bottom-width: 1em;

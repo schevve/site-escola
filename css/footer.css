@@ -7,21 +7,30 @@
 }
 
 .footer-container{
+    height: 7em;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 2em;
     margin-top: 1em;
-    background-color: var(--yellow);
+    background-color: var(--white);
 }
 .footer-link{
-    padding: 1em;
+    background-color: var(--yellow);
+    margin-top: 1em;
+    margin-bottom: 1em;
     box-sizing: border-box;
+    border-bottom: 0.5em solid var(--brown);
+    transition-duration: 200ms;
 }
 .footer-img{
-    font-size: 2em;
-    height: 1em;
+    padding: 1em;
+    font-size: 1em;
+    height: 2em;
     width: auto;
+}
+.footer-link:hover{
+    border-bottom-width: 0;
 }
 .invert{
     filter: invert(1);

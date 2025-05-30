@@ -36,6 +36,8 @@
     font-size: 1.2em;
     font-weight: bold;
     padding: 1em;
+    min-width: 4em;
+    text-align: center;
     background-color: var(--yellow);
     border-width: 0;
     border-bottom-width: 0.5em;
