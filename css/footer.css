@@ -24,6 +24,7 @@
     transition-duration: 200ms;
 }
 .footer-img{
+    display: block;
     padding: 1em;
     font-size: 1em;
     height: 2em;
