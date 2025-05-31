@@ -61,6 +61,8 @@
     border-left-width: 0em;
 }
 .section-img{
+    max-height: 25em;
+    filter:blur(1em);
     display: block;
     width: 100%;
     object-fit: cover;
