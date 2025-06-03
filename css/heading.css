@@ -108,7 +108,7 @@
     margin: 0;
 }
 .heading-img{
-    filter: blur(1em);
+    
     width: 100%;
     object-fit: cover;
     height: 40em;
